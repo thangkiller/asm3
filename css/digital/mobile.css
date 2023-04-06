@@ -1,0 +1,30 @@
+@media only screen and (max-width: 768px) {
+   main {
+      display: block;
+      padding: 20px;
+   }
+   #group-3 .group--body {
+      flex-direction: column;
+      padding-left: 16px;
+   }
+   .group--body--item {
+      flex-direction: column;
+      padding: 10px 0;
+   }
+   #group-3 .group--body--item {
+      width: 90%;
+   }
+   #group-5 .group--body--item {
+      align-items: flex-start;
+      padding-left: 16px;
+   }
+   .group--body--item--inner {
+      width: 90%;
+      flex: 1;
+      padding-right: 30px;
+   }
+
+   #group-3 p {
+      margin: 10px 0;
+   }
+}

@@ -1,0 +1,32 @@
+@media only screen and (max-width: 768px) {
+  #navbar {
+    height: 125px;
+  }
+  #navbar .container--item {
+    height: 25%;
+    padding: 3px 0;
+    border-style: none !important;
+  }
+  #certificate img {
+    width: 100%;
+    margin-bottom: 16px;
+  }
+  .certificate--container--group-item__border {
+    border-top-style: solid;
+    border-left-style: none;
+    padding-top: 48px;
+  }
+  #cert-1 {
+    margin-bottom: 48px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  #cert-2 {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  #cert-3 {
+    width: 100%;
+    padding: 48px 1rem 0 1rem;
+  }
+}

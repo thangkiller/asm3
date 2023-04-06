@@ -1,0 +1,170 @@
+h3 {
+  font-size: 27px;
+}
+h5 {
+  font-size: 19px;
+}
+img {
+  width: 100%;
+}
+a {
+  text-decoration: none;
+}
+a:visited {
+}
+/* banner */
+#banner {
+  height: 60vh;
+}
+#banner .blur {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(../images/banner.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+.blur > div {
+  top: 15%;
+}
+/* navbar */
+#navbar {
+  height: 72px;
+}
+.container--item {
+  height: 100%;
+  padding: 23px 15px;
+}
+.container--item__center {
+  padding: 5px 20px;
+}
+.container--item a {
+  color: #2d2d2d;
+  font-size: 14px;
+  letter-spacing: -0.3px;
+  text-decoration: none;
+}
+.container--item__center a {
+  text-transform: none;
+}
+.container--item i {
+  color: #0d6efd;
+}
+/* about */
+#about h3 {
+  letter-spacing: 0.5px;
+}
+#target {
+  background-color: #f5f5f5;
+}
+#personal-info {
+  background-color: #e5dada;
+}
+#personal-info strong {
+  color: #222222;
+}
+/* job-item */
+.info-item {
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  color: rgba(0, 0, 0, 0.75);
+  grid-template-rows: 40px auto;
+  background-color: #fff;
+}
+.info-item-inner li {
+  position: relative;
+  margin-left: 25px;
+}
+.info-item-inner li::before {
+  content: "\2022";
+  position: absolute;
+  left: -15px;
+  font-size: 20px;
+  color: #0d6efd;
+}
+.info-item-inner__hobby {
+  font-size: 14px;
+  width: 100%;
+}
+.info-item-inner__hobby > div {
+  width: 67px;
+}
+.info-item-inner__hobby i {
+  margin: 0 auto;
+  width: 44px;
+  height: 44px;
+  position: relative;
+}
+.info-item-inner__hobby i::before {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.info-item-level {
+  height: 4px;
+}
+.info-item-inner__lan li,
+.info-item-inner__skill li {
+  height: 65px;
+}
+.info-item-inner__lan h5,
+.info-item-inner__skill h5 {
+  margin: 0;
+}
+/* certificate */
+#certificate .container {
+  background: #f7f7f7;
+}
+.certificate--container--group-item__border {
+  border-left-style: solid;
+}
+.certificate--container--group,
+.certificate--container--group-item__border {
+  border-color: #d6c08d !important;
+  border-width: 2px !important;
+}
+#cert-3 {
+  width: 50%;
+  padding: 0 1rem;
+}
+#certificate ul {
+  color: #666;
+}
+#certificate img {
+  width: 40%;
+}
+.section-title {
+  letter-spacing: -1px;
+}
+/* projects */
+.project {
+  color: #777;
+}
+.section-title {
+  color: #555;
+}
+.project--body--table {
+  height: 200px !important;
+}
+table td {
+  padding: 0 10px;
+}
+.table--column--1 {
+  width: 100px;
+}
+.project--body--table tr {
+  vertical-align: baseline;
+  border-width: 1px !important;
+  border-color: #ddd;
+}
+.project--body--table--desc--year {
+  color: rgba(255, 255, 255, 0.9);
+}
+/* footer */
+#footer .container {
+  background: #f7f7f7;
+}
+#footer a {
+  height: 42px;
+}
+#footer a div {
+  transform: translateY(-4px);
+}
